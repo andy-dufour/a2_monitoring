@@ -20,6 +20,8 @@ case "$query_type" in
             exit 1
 esac
 
+# curls the overall ES API and returns the doc type we want
+
 curl -XGET -H 'content-type: application/json' 'localhost:10141/_search' -d"
 {
         \"query\": {

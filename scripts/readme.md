@@ -13,9 +13,9 @@ This will dump the results to stdout. You may want to pipe the stdout to a file 
 WARNING: Could result in a lot of data on large implementations.
 
 Event types:
-
+```
 actions - any event on the Chef server
-\_doc - Compliance scans
+_doc - Compliance scans
 converge - Chef run reports
-
+```
 We're going to dump large json objects, including elasticsearch metadata.
